@@ -1,47 +1,43 @@
 
-# Compiled source #
+# COMPILED SOURCE
 ######################################
-*.com
-*.class
-*.dll
-*.exe
 *.o
 *.so
+*.com
+*.dll
+*.exe
+*.class
 
-# Packages #
+# PACKAGES
 ######################################
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
 *.7z
-*.dmg
 *.gz
+*.dmg
 *.iso
 *.jar
 *.rar
 *.tar
 *.zip
 
-# Logs and databases #
+# LOGS & DATABASES
 ######################################
 *.log
 *.sql
-*.sqlite
 
-# OS generated files #
+# OS GENERATED FILES
 ######################################
 ._*
 .DS_Store
 .DS_Store?
 *.DS_Store
 *.DS_Store?
-.Spotlight-V100
 .Trashes
 
-# Idea #
+# IDE
 ######################################
 .idea/
 
-# Project folders #
+# FOLDERS
 ######################################
 node_modules/
 configs/
@@ -49,8 +45,12 @@ public/
 raw/
 tmp/
 
-# Package-lock #
+# PACKAGE LOCK FILE
 ######################################
 package-lock.json
+
+# SH FILES
+######################################
+run.*.sh
 
 
